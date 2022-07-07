@@ -67,9 +67,12 @@ button {
     color: #E5E7EB;
     font-size: 16px;
     font-weight: bold;
-    border: none;
     border-radius: 8px; /* rounds button */
     padding: 10px 25px;
+}
+
+.header button {
+    border: none;
 }
 
 .information {
@@ -123,4 +126,31 @@ button {
     font-size: 25px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.cta {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin: 100px 250px;
+    padding: 50px 100px;
+}
+
+.cta-words {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta button {
+    border: 10px white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 30px;
+    font-size: 16px;
+    font-weight: 300;
 }
