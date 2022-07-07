@@ -3,3 +3,7 @@ HEADER:
 - For the rest of the header, I used some nested flexboxes. One for the content on the left + the image, and then one for the content itself with the direction set to column. 
 
 INFORMATION
+- This section was very similar to one of the flex exercises. All of the images/text were put in a flexbox and justified to the center with some gap. Each image/text was in its own flexbox as well, with a direction of column, to make the text appear below the image.
+
+QUOTE
+- 
