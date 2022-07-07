@@ -1,15 +1,44 @@
 body {
-    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
 }
 
 .header {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
     background-color: #1F2937;
 }
 
+.blank {
+    width: 190px;
+    flex-shrink: 0;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.nav-bar {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex: 1;
+
+}
+
 ul {
+    margin: 0px;
+    padding: 0px;
     list-style: none;
 }
 
 li {
-    color: white;
+    color: #E5E7EB;
+    font-size: 18px;
 }
