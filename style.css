@@ -10,6 +10,7 @@ body {
 
 .nav-bar {
     display: flex;
+    flex-flow: wrap;
     align-items: center;
     gap: 20px;
 }
@@ -32,7 +33,7 @@ li {
     font-size: 18px;
 }
 
-img {
+.header img {
     width: 400px;
 }
 
@@ -69,4 +70,43 @@ button {
     border: none;
     border-radius: 8px; /* rounds button */
     padding: 10px 25px;
+}
+
+.information {
+    text-align: center;
+    padding: 50px;
+}
+
+.information img {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.info-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.media  {
+    padding: 40px;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.media div {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
 }
