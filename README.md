@@ -1,6 +1,6 @@
 This project solidified many basic CSS concepts such as selectors, combinators, properties, the box model, and flexbox.
 
-Link to website: 
+Link to website: [https://richa130.github.io/landing-page/](https://richa130.github.io/landing-page/)
 
 Overview of how I made each part: 
 
