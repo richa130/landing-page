@@ -10,6 +10,8 @@ QUOTE
 - To make the empty spaces at the sides I just changed the padding like I did for the header. I'm not really sure if that was the right way to achieve this though, because when I resize my browser small enough there seems to be some issues. The image in the header overflows off the page. I tried setting it to flex-wrap but then the image shows up below the text, when I want it to be at the side. Not too sure what to do.
 
 CALL TO ACTION
+- Made the cta div have a large margin to get the emtpy white space. The text/image was in a flexbox, with justify-center set to space between. The text itself was also in a flexbox in the column direction.
 
 
 FOOTER
+- No flexbox, just center the text
